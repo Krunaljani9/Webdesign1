@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      display: flex;
+      position: relative;
+      width: 100%;
+      background-color: yellow;
+      /* justify-content: space-between; */
+      border: 1px solid black;
+    }
+   .container ul{
+      display: flex;
+      border: 1px solid brown;
+      width: 30%;
+      background-color: #a52a2a;
+      color: bisque;
+      /* position: absolute; */
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    ul li{
+      border: 1px solid blueviolet;
+      list-style-type: none;
+      /* padding: auto 20px; */
+            
+    }
+    .container .second{ 
+      border: 1px solid red;
+      position: absolute;
+      right:0px;
+      top:20px;
+      width:20%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <ul>
+      <li>Home</li>
+      <li>About US</li>
+      <li>Contact US</li>
+    </ul>
+    <div class="second">
+         Text
+    </div>
+  </div>
+  
+</body>
+</html>

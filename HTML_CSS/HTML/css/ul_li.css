@@ -1,0 +1,68 @@
+ul{ 
+     margin: 0;
+    padding:0;  
+    
+}
+.frontend-item li{
+    border:2px solid red;
+    background-color: green;
+    min-width: 100px;
+}
+ul li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+    background-color: yellow;
+    
+}
+ul li:hover {
+    color: red;
+    display: block;
+}
+ul li.dropdown {
+    position:relative;
+    display: block;
+        
+}
+ul li:hover > li{
+    color: black;
+}
+.dropdown-item{
+    color: black;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+
+}
+.dropdown:hover .dropdown-item{
+    display: block;
+}
+ul li.dropdown-item{
+    display: block;
+    position: absolute;
+}
+.frontend-item{
+    color:black;
+    display: none;
+    position: absolute;
+    left: 76px;
+    top: 0px;
+        
+    text-wrap: nowrap;
+    z-index: 1;
+    
+}
+ul li.frontend:hover .frontend-item{
+    display: block;
+    position: absolute;
+    
+    
+}
+ul li.frontend{
+    display: block;
+      
+}
+
+
+

@@ -1,0 +1,11 @@
+ body{
+    /* background-color: blue; */
+    background-image: url("../images/code-coding.gif");
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-attachment:fixed;
+}
+/* Section */
+div{
+    background:rgba(0, 128, 0, 0.3);
+}
